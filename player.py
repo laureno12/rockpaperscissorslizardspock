@@ -1,7 +1,10 @@
-from choice import Choice
 
 class Player:
 
-    def __init__(self, name, number_players):
+    def __init__(self, name):
         self.name = " "
-        self.number_players = input("How many human players? 1 or 2 ")
+        self.list_gestures = ["rock", "paper", "scissors", "lizard", "spock"]
+        self.seleced_gesture = ''
+        self.wins = 0
+
+    

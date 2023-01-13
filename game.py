@@ -17,13 +17,14 @@
 # 5. Repeat 3 and 4 until best of 3.
 # 6. Display winner of game.
 
-class Game
+class Game:
+
 
     def __init__(self):
         pass
 
     def display_intro(self):
-        print("Welcome to Rock, Paper, Scissos, Spock.")
+        print("Welcome to Rock, Paper, Scissors, Spock.")
 # 1. Display Rules of game
 # 2. Ask how many players
     def play_game(self):
